@@ -30,3 +30,16 @@ $mahasiswa->setNpm("2135051");
 // Menggunakan getter untuk mendapatkan nilai nama dan npm
 echo "Nama: " . $mahasiswa->getNama() . "<br>";
 echo "NPM: " . $mahasiswa->getNpm() . "<br>";
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Mahasiswa</title>
+</head>
+<body>
+    <h1>Data Mahasiswa</h1>
+    <p>Nama: <?php echo $nama; ?></p>
+    <p>NPM: <?php echo $npm; ?></p>
+</body>
+</html>
